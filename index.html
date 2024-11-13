@@ -29,9 +29,9 @@
       margin-right: 5px;
       font-weight: bold;
     }
-    .text-red { color: #ff6347; } /* 番茄紅 */
-    .text-blue { color: #4682b4; } /* 鋼藍色 */
-    .text-green { color: #32cd32; } /* 石灰綠 */
+    .text-red { color: #ff6347; }
+    .text-blue { color: #4682b4; }
+    .text-green { color: #32cd32; }
     p {
       font-size: 1.2em;
       line-height: 1.6;
@@ -43,11 +43,16 @@
       font-style: italic;
       color: #888;
     }
+    .birthday-image {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
   </style>
 </head>
 <body>
   <div class="container">
-    <!-- 讓「爸爸 生日快樂」有不同的顏色 -->
     <h1 class="colorful-text">
       <span class="text-red">爸</span>
       <span class="text-blue">爸</span>
@@ -58,11 +63,8 @@
       <span class="text-red">樂</span>！
     </h1>
     
-    <!-- 嵌入 Giphy 生日祝福動畫 -->
-    <div style="width:100%;height:0;padding-bottom:125%;position:relative;">
-      <iframe src="https://giphy.com/embed/onPMdPD9wI4rWA6KaT" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-    </div>
-    <p><a href="https://giphy.com/gifs/happy-birthday-hbd-hb-onPMdPD9wI4rWA6KaT">via GIPHY</a></p>
+    <!-- GIF 版本 -->
+    <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjlhZjQ1dGdnMmkyNDcwdWZodG1xZ3NhMnI4dWpha3VwcmxtaXI4byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/onPMdPD9wI4rWA6KaT/giphy.gif" alt="生日快樂動畫" class="birthday-image">
     
     <p>
       今年生日我不打算再說一次關於你開車載我們的事情了，不然又會被你說像司機哈哈哈。
